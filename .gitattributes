@@ -1,0 +1,30 @@
+# Force LF line endings for all text files
+* text=auto eol=lf
+
+# Explicitly set LF for important files
+*.java eol=lf
+*.properties eol=lf
+*.xml eol=lf
+*.yml eol=lf
+*.yaml eol=lf
+*.json eol=lf
+*.md eol=lf
+# *.groovy eol=lf   # planned for future Gradle migration
+# *.kt eol=lf
+# *.gradle eol=lf
+# build.gradle eol=lf
+# settings.gradle eol=lf
+.gitignore eol=lf
+.gitattributes eol=lf
+
+# Binary files: do not modify
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.jar binary
+*.war binary
+*.ear binary
+*.class binary

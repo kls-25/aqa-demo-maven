@@ -1,0 +1,57 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/
+
+# Build artifacts
+build/
+.gradle/
+out/
+target/
+
+# Maven Wrapper
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# Compiled classes & packages
+*.class
+*.jar
+*.war
+*.ear
+
+# Test & Allure reports
+allure-results/
+allure-report/
+test-output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# Secrets & local config
+.env
+*.env.local
+*.key
+*.p12
+*.jks
+secrets.txt
+secret*
+
+# Drivers
+drivers/
+chromedriver*
+geckodriver*
+
+# Logs
+*.log
+
+# Backup
+*~
